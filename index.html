@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Budget Flights</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/photo.png" />
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo-area">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+            </div>
+            <div class="search-bar">
+                <label></label><input type="text" name="search" required placeholder="Search Budget Flights" /><input type="Submit" value="Search" class="Search-budgetflights" />
+            </div>
+
+        </div>
+        <div class="menu-bar">
+            <ul class="main-list">
+                <li><a href="index.html" accesskey="H">Home</a></li>
+                <li>
+                    <a href="index.html">About Flights</a>
+                    <ul class="dropdown">
+                        <li><a href="flight.html" accesskey="I">Flight Information</a></li>
+                        <li><a href="arrival.html" accesskey="A">Arrivals & Departures</a></li>
+                        <li><a href="check.html" accesskey="C">Check-in inforrmation</a></li>
+                    </ul>
+                </li>
+                <li><a href="apps.html" accesskey="M">Mobile Apps</a></li>
+                <li><a href="about.html" accesskey="U">About Us</a></li>
+                <li><a href="explore.html" accesskey="E">Explore </a></li>
+                <li><a href="help.html" accesskey="Q">FAQ/Help</a></li>
+            </ul>
+        </div>
+
+        <div class="book">
+            <h1>Make the world your story.</h1>
+            <h1>Save up to 50%*</h1>
+            <h2>Enjoy great offers and earn bonus from Budget Flights</h2>
+            <div class="booking-area">
+                <form method="post" action="index.html">
+                    <h1>Book your Flight</h1>
+                    <p>
+                        <label>From</label>
+                        <select name="depart">
+<option>Albania</option>
+<option>Andorra</option>
+<option>Armenia</option>
+<option>Austria</option>
+<option>Azerbaijan</option>
+<option>Belarus</option>
+<option>Belgium</option>
+<option>Bosnia and Herzegovina</option>
+<option>Bulgaria</option>
+<option>Croatia</option>
+<option>Cyprus</option>
+<option>Czech Republic</option>
+<option>Denmark</option>
+<option>Estonia</option>
+<option>Finland</option>
+<option>France</option>
+<option>Georgia</option>
+<option>Germany</option>
+<option>Greece</option>
+<option>Hungary</option>
+<option>Iceland</option>
+<option>Ireland</option>
+<option>Italy</option>
+<option>Kazakhstan</option>
+<option>Kosovo</option>
+<option>Latvia</option>
+<option>Liechtenstein</option>
+<option>Lithuania</option>
+<option>Luxembourg</option>
+<option>Macedonia (FYROM)</option>
+<option>Malta</option>
+<option>Moldova</option>
+<option>Monaco</option>
+<option>Montenegro</option>
+<option>Netherlands</option>
+<option>Norway</option>
+<option>Poland</option>
+<option>Portugal</option>
+<option>Romania</option>
+<option>Russia</option>
+<option>San Marino</option>
+<option>Serbia</option>
+<option>Slovakia</option>
+<option>Slovenia</option>
+<option>Spain</option>
+<option>Sweden</option>
+<option>Switzerland</option>
+<option>Turkey</option>
+<option>Ukraine</option>
+<option>United Kingdom (UK)</option>
+<option>Vatican City (Holy See)</option>
+		</select>
+
+                        <label>To</label>
+                        <select name="destinations">
+<option>Albania</option>
+<option>Andorra</option>
+<option>Armenia</option>
+<option>Austria</option>
+<option>Azerbaijan</option>
+<option>Belarus</option>
+<option>Belgium</option>
+<option>Bosnia and Herzegovina</option>
+<option>Bulgaria</option>
+<option>Croatia</option>
+<option>Cyprus</option>
+<option>Czech Republic</option>
+<option>Denmark</option>
+<option>Estonia</option>
+<option>Finland</option>
+<option>France</option>
+<option>Georgia</option>
+<option>Germany</option>
+<option>Greece</option>
+<option>Hungary</option>
+<option>Iceland</option>
+<option>Ireland</option>
+<option>Italy</option>
+<option>Kazakhstan</option>
+<option>Kosovo</option>
+<option>Latvia</option>
+<option>Liechtenstein</option>
+<option>Lithuania</option>
+<option>Luxembourg</option>
+<option>Macedonia (FYROM)</option>
+<option>Malta</option>
+<option>Moldova</option>
+<option>Monaco</option>
+<option>Montenegro</option>
+<option>Netherlands</option>
+<option>Norway</option>
+<option>Poland</option>
+<option>Portugal</option>
+<option>Romania</option>
+<option>Russia</option>
+<option>San Marino</option>
+<option>Serbia</option>
+<option>Slovakia</option>
+<option>Slovenia</option>
+<option>Spain</option>
+<option>Sweden</option>
+<option>Switzerland</option>
+<option>Turkey</option>
+<option>Ukraine</option>
+<option>United Kingdom (UK)</option>
+<option>Vatican City (Holy See)</option>
+		</select>
+                    </p>
+                    <p>
+                        <label>Outbound Flight</label>
+                        <input type="datetime-local" name="flight" required>
+                    </p>
+                    <p>
+                        <label>Return Flight</label>
+                        <input type="datetime-local" name="flight" required>
+                    </p>
+                    <p>
+                        <label>Adult(&gt;11years)</label><input type="number" name="passenger" min="0" max="50" class="passenger" />
+                        <label>Children(2-11years)</label><input type="number" name="passenger" min="0" max="50" class="passenger" />
+                        <label>Infants(&lt;2years)</label><input type="number" name="passenger" min="0" max="50" class="passenger" />
+                    </p>
+                    <p><label>Class</label>
+                        <select name="quality">
+			<option>Economy</option>
+			<option>Business</option>
+			<option>Promotions</option>
+		</select>
+                    </p>
+                    <p><label></label>
+                        <input type="radio" name="flight" id="a" /><label for="a">One way</label>
+                        <input type="radio" name="flight" id="b" /><label for="b">Round Trip</label>
+                    </p>
+                    <p>
+                        <input type="Submit" value="Book" class="sub-book" />
+                        <input type="Reset" value="Cancel" class="cancel-book" />
+                    </p>
+                </form>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <div id="content">
+            <div class="contentleft">
+                <b>Contact Us:</b>
+                <ul>
+                    <li>France (Head Office)</li>
+                    <li>Charles de Gaulle Airport,Terminal 1,</li>
+                    <li>Tremblay-en-France,France</li>
+                    <li>Tel No:+33( 4220757, 4248614, 4244055, 4248617)</li>
+                    <li>Fax: +33-4225348</li>
+                    <li>Email: info@budgetflights.com.eu</li>
+                </ul>
+            </div>
+            <div class="contentmid">
+                <b>Stay connected with us via:</b>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com"><img src="images/logofb.png" alt="logo" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com"><img src="images/logotw.png" alt="logo" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com"><img src="images/logog.png" alt="logo" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com"><img src="images/logoytu.png" alt="logo" /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com"><img src="images/logoins.png" alt="logo" /></a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="contentright">
+                <p>All our offers and news by Email.</p>
+                <form method="post" action="index.html">
+                    <p>
+                        <label></label><input type="text" name="first" required placeholder="First Name" class="information" />
+                        <label></label><input type="text" name="first" required placeholder="Last Name" class="information" />
+                    </p>
+                    <p>
+                        <label></label><input type="text" name="email" required placeholder="Email" class="information" /> <input type="Submit" value="I want to subscribe" class="subscribe" />
+                    </p>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <p>&copy; 2018-2019 Budget Flights. All rights reserved. Designed by Ujjwal Humagain</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

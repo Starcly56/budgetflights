@@ -1,0 +1,704 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* in every page*/
+
+.main {
+    width: 1000px;
+    margin: auto;
+}
+
+.logo-area {
+    width: 1000px;
+    float: left;
+}
+
+.logo img {
+    width: 120px;
+    height: 40px;
+    float: left;
+}
+
+.logo-area .search-bar {
+    float: left;
+    margin-left: 700px;
+    margin-top: -15px;
+}
+
+.search-bar .Search-budgetflights {
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*for menu bar*/
+
+.menu-bar {
+    width: 1000px;
+    float: left;
+    height: 40px;
+    background: url(images/menu-bar.jpg);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.menu-bar .main-list li {
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.menu-bar .main-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-bar .main-list .dropdown li {
+    list-style: none;
+    width: 150px;
+    margin-left: -1.5px;
+    padding-top: 2px;
+    margin-bottom: 2px;
+    background: grey;
+}
+
+.menu-bar .dropdown a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-bar .main-list a:hover {
+    color: white;
+    background: black;
+    transition: background 0.5s ease-in;
+}
+
+.menu-bar .dropdown a:hover {
+    color: white;
+    background: black;
+    transition: background 0.5s ease-in;
+}
+
+.menu-bar .main-list li:hover>.dropdown {
+    visibility: visible;
+}
+
+.menu-bar .main-list {
+    float: left;
+    width: 900px;
+}
+
+.dropdown li {
+    padding-right: 0!important;
+}
+
+.menu-bar .dropdown {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 9999999;
+    top: 90px;
+    visibility: hidden;
+    width: 200px;
+}
+
+
+/*for menu bar*/
+
+.footer {
+    width: 1000px;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    background: url(images/footerimg.jpg);
+    border-radius: 5px;
+    height: 40px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* in every page*/
+
+
+/*index page*/
+
+#content {
+    width: 1000px;
+    background: url(images/subscribe.jpg);
+    float: left;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.contentleft {
+    width: 340px;
+    float: left;
+}
+
+.contentleft ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contentmid {
+    width: 250px;
+    margin-left: 25px;
+    float: left;
+}
+
+.contentmid b {
+    margin-left: 35px;
+}
+
+.contentmid li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contentmid li a {
+    text-decoration: none;
+    padding: 0px;
+    float: left;
+    margin: 0px;
+}
+
+.contentmid li a img {
+    width: 22px;
+    height: 20px;
+}
+
+.contentmid img:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.contentmid a {
+    width: 40px;
+    float: left;
+}
+
+.contentright {
+    width: 350px;
+    margin-left: 35px;
+    float: left;
+}
+
+
+/*subscribe form*/
+
+.contentright form {
+    width: 350px;
+}
+
+.information {
+    width: 160px;
+}
+
+.subscribe {
+    cursor: pointer;
+    border: none;
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+}
+
+
+/********************subscribe form******************/
+
+
+/*index page*/
+
+
+/*book area*/
+
+.book {
+    width: 1000px;
+    float: left;
+    background: url(images/planecloud.jpg);
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 600px;
+}
+
+.book h1,
+h2 {
+    padding: 0px;
+    margin-top: 30px;
+    color: black;
+    font-family: Constantia;
+}
+
+.booking-area {
+    width: 600px;
+    float: left;
+    border-radius: 5px;
+    height: 600px;
+    margin-left: 200px;
+}
+
+
+/*book area*/
+
+
+/*booking form*/
+
+.booking-area form {
+    font-size: 18.7px;
+    color: black;
+    font-family: Constantia;
+    background: lightgrey;
+    height: 350px;
+    width: 600px;
+    float: left;
+    border-radius: 5px;
+}
+
+.booking-area form h1 {
+    text-align: center;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sub-book {
+    border: none;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.cancel-book {
+    border: none;
+    font-size: 20px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.passenger {
+    width: 55px;
+}
+
+
+/*************booking form*************/
+
+
+/*arrival*/
+
+#contact-content {
+    width: 1000px;
+    background: url(images/contact-content.jpg);
+    float: left;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: black;
+    height: 480px;
+}
+
+.flight-info {
+    width: 1000px;
+    float: left;
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/*arrivals form and departures form*/
+
+#contact-content {
+    width: 1000px;
+    float: left;
+}
+
+.arrival form {
+    width: 300px;
+    height: 200px;
+    background: url(images/arrival.jpg);
+    float: left;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.depart form {
+    width: 300px;
+    height: 200px;
+    background: url(images/departure.jpg);
+    float: left;
+    border-radius: 5px;
+    color: white;
+    margin-left: 400px;
+}
+
+.search-arrival {
+    background: green;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-depart {
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/****arrivals form and departures form****/
+
+.contact {
+    width: 600px;
+    float: left;
+}
+
+.contact ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*arrival*/
+
+
+/*check page*/
+
+.checkin {
+    text-align: justify;
+    background: url(images/checkin.jpg);
+    float: left;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.excess-baggage {
+    text-align: justify;
+    float: left;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: url(images/luggage.jpg);
+}
+
+.table {
+    margin-left: 250px;
+    border-top: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+
+/*check page*/
+
+
+/*flight page*/
+
+#route {
+    width: 1000px;
+    float: left;
+    margin-top: 10px;
+}
+
+#route img {
+    width: 600px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+.caption {
+    text-align: center;
+}
+
+
+/*flight page*/
+
+
+/*apps page*/
+
+#mobile {
+    text-align: justify;
+    float: left;
+    background: lightgrey;
+    width: 1000px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#mobile ul {
+    margin: 25px;
+    padding: 0px;
+}
+
+#mobile img {
+    width: 150px;
+    height: 60px;
+}
+
+#mobile img:hover {
+    transform: scale(1.5);
+    transition: 0.2s;
+}
+
+.mobilemain {
+    width: 1000px;
+    height: 300px;
+    background: url(images/mobilemain.jpg);
+    border-radius: 5px;
+    float: left;
+}
+
+.mobilemain h1,
+h2 {
+    text-align: left;
+    padding: 0px;
+    color: black;
+}
+
+.app {
+    width: 1000px;
+    height: 450px;
+    background: none;
+}
+
+.feature {
+    width: 1000px;
+    height: 350px;
+    background: url(images/book.jpg);
+    border-radius: 5px;
+    color: black;
+}
+
+.download li {
+    list-style: none;
+    float: left;
+    text-align: right;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+/*apps page*/
+
+
+/*explore page*/
+
+.explore {
+    float: left;
+}
+
+.imageholder {
+    width: 1000px;
+    float: left;
+    border-radius: 5px;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.images img {
+    float: left;
+    width: 300px;
+    height: 200px;
+    padding-left: 16.67px;
+    padding-right: 16.67px;
+    padding-top: 13px;
+    margin: 0;
+}
+
+.imageholder p {
+    text-align: center;
+    float: none;
+}
+
+.many {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*explore page*/
+
+
+/*about-us-area*/
+
+#about-us-area {
+    width: 1000px;
+    float: left;
+    margin-top: 20px;
+}
+
+.about-us-left {
+    width: 320px;
+    float: left;
+    margin-right: 20px;
+}
+
+.about-us-left p {
+    text-align: justify;
+}
+
+.about-us-mid {
+    width: 320px;
+    float: left;
+    margin-right: 20px;
+}
+
+.about-us-right {
+    width: 660px;
+    float: left;
+    text-align: justify;
+}
+
+.about-us-right img {
+    width: 660px;
+    height: 500px;
+    float: left;
+    border-radius: 5px;
+}
+
+
+/*about-us-area*/
+
+
+/*help*/
+
+.help {
+    margin-top: 10px;
+    width: 1000px;
+    float: left;
+}
+
+.help h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.helpsearch {
+    margin-left: 400px;
+}
+
+.help-images {
+    width: 500px;
+    float: left;
+    margin-top: 10px;
+}
+
+.help-images img {
+    width: 600px;
+    height: 350px;
+}
+
+.helpsocial {
+    width: 320px;
+    height: 270px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.helpsocial h2 {
+    margin-left: 50px;
+}
+
+.helpsocial li {
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.helpsocial a {
+    text-decoration: none;
+    color: green;
+}
+
+.helpsocial img {
+    width: 30px;
+    height: 30px;
+}
+
+.onmobile {
+    float: left;
+    width: 1000px;
+}
+
+.onmobile img {
+    float: left;
+    width: 400px;
+    height: 300px;
+    padding: 0 10px 0 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.help-search {
+    background: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.helpatairport {
+    width: 1000px;
+    float: left;
+}
+
+.helpatairport img {
+    width: 1000px;
+    height: 600px;
+}
+
+
+/*help*/
+
+@media screen and (max-width:750px) {
+    .main {
+        width: 100%
+    }
+    .logo-area {
+        width: 50%;
+    }
+    .menu-bar {
+        width: 100%
+    }
+    .book {
+        width: 100%
+    }
+    .footer {
+        width: 100%
+    }
+    #content {
+        width: 100%
+    }
+}
